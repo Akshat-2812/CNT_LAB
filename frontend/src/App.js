@@ -5,6 +5,7 @@ import DisplayResult from './components/DisplayResult';
 export default function App() {
   const [view, setView] = useState('home');
 
+  
   return (
     <div className="min-h-screen flex flex-col items-center p-6">
       <header className="w-full max-w-4xl">
